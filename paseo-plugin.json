@@ -1,0 +1,9 @@
+{
+  "id": "model-filter",
+  "name": "Model filter",
+  "description": "Choose which models each provider shows in the chat model picker.",
+  "media": [],
+  "requirements": {
+    "paseo": ">=0.16.0"
+  }
+}
