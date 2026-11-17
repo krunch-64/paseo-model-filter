@@ -1,7 +1,13 @@
 {
   "name": "model-filter",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Paseo plugin: choose which models each provider shows in the chat model picker.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krunch-64/paseo-model-filter.git"
+  },
   "files": [
     "paseo-plugin.json",
     "OVERVIEW.md",
@@ -15,7 +21,8 @@
     "shared/"
   ],
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/models.test.ts"
   },
   "devDependencies": {
     "@getpaseo/plugin": "0.16.0",

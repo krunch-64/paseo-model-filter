@@ -18,12 +18,12 @@ export const listRpc = defineRpc({
 
 export const saveRpc = defineRpc({
   name: "models.save",
-  input: z.object({ provider: z.string(), visibleIds: z.array(z.string()).min(1) }),
+  input: z.object({ provider: z.string().min(1), visibleIds: z.array(z.string()).min(1) }),
   output: z.object({ ok: z.literal(true) }),
 });
 
 export const resetRpc = defineRpc({
   name: "models.reset",
-  input: z.object({ provider: z.string() }),
+  input: z.object({ provider: z.string().min(1) }),
   output: z.object({ ok: z.literal(true) }),
 });

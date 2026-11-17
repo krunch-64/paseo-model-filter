@@ -2,6 +2,12 @@
   "id": "model-filter",
   "name": "Model filter",
   "description": "Choose which models each provider shows in the chat model picker.",
+  "translations": {
+    "fr": {
+      "name": "Filtre de modèles",
+      "description": "Choisis quels modèles chaque fournisseur affiche dans le sélecteur de modèles du chat."
+    }
+  },
   "media": [],
   "requirements": {
     "paseo": ">=0.16.0"
