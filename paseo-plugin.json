@@ -8,7 +8,7 @@
       "description": "Choisis quels modèles chaque fournisseur affiche dans le sélecteur de modèles du chat."
     }
   },
-  "media": [],
+  "media": ["assets/screenshot.jpg"],
   "requirements": {
     "paseo": ">=0.16.0"
   }
